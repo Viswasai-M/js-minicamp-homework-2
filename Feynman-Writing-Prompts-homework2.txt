@@ -29,7 +29,6 @@ isPrime(5);
 In above code var i = 2(start), i<num(stop), i++(step/increment). for loop make a block of same code to iterate through the loop number of times until it hits
 stop condition. In javascripts if we want we can omit the statements but still the for loop behaves same.
 
-Ex: for( var i =2; i<num;) this one also excecutes in javascript even if you omit the statement.
 
 
 logical operators and NoT(`&&`, `||`, `!`):
