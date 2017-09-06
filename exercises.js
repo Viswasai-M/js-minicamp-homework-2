@@ -101,7 +101,7 @@ fizzBuzz(3);
 
 function isPrime(num) {
 if (num>1){
-    for( var i =2; i<num; i++){
+    for( var i =2; i<num; ){
         if(num%i === 0){
             return false;
             }

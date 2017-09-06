@@ -1,0 +1,61 @@
+for loop
+
+In javascript or any language loops plays an important role. Here for loop makes a lot of things simple and i like to say make the task a cake walk if we can 
+crack it using for loop. for loops are having three statements( start, stop , step) to execute block of code inside it.
+Ex:
+
+function isPrime(num) {
+if (num>1){
+    for( var i =2; i<num; i++){
+        if(num%i === 0){
+            return false;
+            }
+        }
+            return true;
+           
+        }else{
+            return false;
+        }
+   // return true if num is prime.
+  // otherwise return false
+  // hint: a prime number is only evenly divisible by itself and 1
+  // hint2: you can solve this using a for loop
+  // note: 0 and 1 are NOT considered prime numbers
+}
+
+isPrime(1);
+isPrime(5);
+
+In above code var i = 2(start), i<num(stop), i++(step/increment). for loop make a block of same code to iterate through the loop number of times until it hits
+stop condition. In javascripts if we want we can omit the statements but still the for loop behaves same.
+
+Ex: for( var i =2; i<num;) this one also excecutes in javascript even if you omit the statement.
+
+
+logical operators and NoT(`&&`, `||`, `!`);
+
+logical operators in javascript are used to compare values, variables.I guess we can say that logical operators are work on conditions.
+
+&& -- excecutes if and only if two expressions/values/variables satisfies.
+|| -- executes  if either of two expressions/values/variables satisfies.
+! -- executes the in such way what ever comes after changes to opposite value. for example true --> false, false-->true. NOT can be to manipulate the flow.
+
+Arrays:
+
+Arrays are a group of identical values/ variables or a mixed collection of both. Arrays are used to store everything inside a one variable.
+We can access the values/ items inside it using its properties. We can do many things on a list of array.
+We can find the length of an array, select a specific value inside a array using location/ by key ,value pairs, we can push an item into array,pop out an item
+from array, join a group of values/items inside a array. We can manipulate an array in different ways to fetch what we except.
+
+Git:
+Git is also like a Github with version control on it. It maintains a master copy and every one can make a copy of it and update the master copy up on submitting
+request and acceptance from the main team/ contributors.
+
+Github:
+Github is like a cloud storage to maintain a copy of your code. Github has repositories which are similar to folders, where can place the common code,
+other stuff under single name as a reference. We can share the code with others and add them as a part of the team to work on the same code which helps
+the programmers to work remotely.
+
+
+
+
