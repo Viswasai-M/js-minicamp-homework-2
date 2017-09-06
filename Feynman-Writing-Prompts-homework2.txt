@@ -1,4 +1,4 @@
-for loop
+for loop:
 
 In javascript or any language loops plays an important role. Here for loop makes a lot of things simple and i like to say make the task a cake walk if we can 
 crack it using for loop. for loops are having three statements( start, stop , step) to execute block of code inside it.
@@ -32,7 +32,7 @@ stop condition. In javascripts if we want we can omit the statements but still t
 Ex: for( var i =2; i<num;) this one also excecutes in javascript even if you omit the statement.
 
 
-logical operators and NoT(`&&`, `||`, `!`);
+logical operators and NoT(`&&`, `||`, `!`):
 
 logical operators in javascript are used to compare values, variables.I guess we can say that logical operators are work on conditions.
 
